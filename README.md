@@ -4,31 +4,59 @@
 #### 2022-3b
 ##### 2022-3b
 
-`small`
-
+`西瓜`
 ```
-big
-bigger
+ABCDEFG
 ```
 
->中華民國
->>台北
+>台灣
+>>桃園
 
->>高雄
-***
+>>台東
 
-* 1
-* 2
-* 3
+>韓國
+>>釜山
+
+>>首爾
 ---
-[洪先生](https://github.com/jinHung2201/2022-3B/blob/main/README.md)
-___
+- A
+- B
+- C
++ A
++ B
++ C
+* A
+* B
+* C
+1. red
+2. blue
+3. black
+***
+[高科](https://www.nkust.edu.tw/)
+
+<https://www.nkust.edu.tw/>
+
 **粗體**
 *斜體*
-~~刪除線~~
+~~刪除~~
+|A|B|C|
+|:-|:-:|-:|
+|1|2|3|
 
-![NKUST](nkust.png "高科大")
+```js
+$scope.cookieGet = function(key){
+  $scope.cookieResult = $cookieStore.get(key);
+  console.log ($scope.cookieResult);
+}
+```
+```ruby
+def index
+puts "hello world"
+end
+```
+``` csharp
+private void index(){
+  Message.Show("hello world");
+}
+```
 
-- [ ] 紅茶
-- [ ] 綠茶
-- [x] 水
